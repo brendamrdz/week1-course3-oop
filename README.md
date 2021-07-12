@@ -48,3 +48,14 @@ Kotlin
 **OMT**: Object Modeling Techniques. It is a methodology for object-oriented analysis.
 ### UML
 UML: Unified Modeling Language. It took the bases and techniques of OMT unifying them. We have more options of diagrams such as Classes, Use Cases, Objects, Activities, Iteration, States, Implementation.
+<br><br><img src="https://github.com/brendamrdz/week1-course3-oop/blob/main/images/clase.jpg?raw=true" alt="alt text" width="60%" height="auto"><br><br>
+<br><br><img src="https://github.com/brendamrdz/week1-course3-oop/blob/main/images/asociaci%C3%B3n.jpg?raw=true" alt="alt text" width="60%" height="auto"><br><br>
+<br><br><img src="https://github.com/brendamrdz/week1-course3-oop/blob/main/images/asociacion-clases.jpg?raw=true" alt="alt text" width="60%" height="auto"><br><br>
+
+<br><br><img src="https://github.com/brendamrdz/week1-course3-oop/blob/main/images/herencia.jpg?raw=true" alt="alt text" width="60%" height="auto"><br><br>
+<br><br><img src="https://github.com/brendamrdz/week1-course3-oop/blob/main/images/flecha-herencia.jpg?raw=true" alt="alt text" width="60%" height="auto"><br><br>
+<br><br><img src="https://github.com/brendamrdz/week1-course3-oop/blob/main/images/agregacion-simbolo.jpg?raw=true" alt="alt text" width="60%" height="auto"><br><br>
+
+<br><br><img src="https://github.com/brendamrdz/week1-course3-oop/blob/main/images/agregacion-uno-muchos.jpg?raw=true" alt="alt text" width="60%" height="auto"><br><br>
+<br><br><img src="https://github.com/brendamrdz/week1-course3-oop/blob/main/images/simbolo-composicion.jpg?raw=true" alt="alt text" width="60%" height="auto"><br><br>
+<br><br><img src="https://github.com/brendamrdz/week1-course3-oop/blob/main/images/composicion2.jpg?raw=true" alt="alt text" width="60%" height="auto"><br><br>
