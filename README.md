@@ -14,35 +14,35 @@ Object Oriented programming is born from the problems created by structured prog
 Object Oriented Programming comes from a philosophy or way of thinking that is Object Oriented and this arises from the problems that we need to translate into code.
 It is to analyze a problem in the form of objects and then take it to code, that is Object Oriented.
 A paradigm is a theory that provides the basis and model for solving problems. The Object Oriented Programming paradigm is composed of 4 elements:
-Classes
-Properties
-Methods
-Objects
+- Classes
+- Properties
+- Methods
+- Objects
 
 **And 4 Pillars:**
-Encapsulation
-Abstraction
-Inheritance
-Polymorphism
+- Encapsulation
+- Abstraction
+- Inheritance
+- Polymorphism
 
 ## Oriented programming languages:
-Java:
-- Naturally Object Oriented
-- It is very useful in Android
-- And it is used on the server side or Server Side.
-PHP
-- Interpreted language
-- Intended for the Web
-Python
-- Designed to be easy to use
-- Multiple uses: Web, Server Side, Data Analysis, Machine Learning, etc.
-Javascript
-- Interpreted language
-- Object Oriented but based on prototypes
-- Designed for the Web
-C#
-Ruby
-Kotlin
+- Java:
+  - Naturally Object Oriented
+  - It is very useful in Android
+  - And it is used on the server side or Server Side.
+- PHP
+  - Interpreted language
+  - Intended for the Web
+- Python
+  - Designed to be easy to use
+  - Multiple uses: Web, Server Side, Data Analysis, Machine Learning, etc.
+- Javascript
+  - Interpreted language
+  - Object Oriented but based on prototypes
+  - Designed for the Web
+- C#
+- Ruby
+- Kotlin
 
 ## Modeling Diagrams
 **OMT**: Object Modeling Techniques. It is a methodology for object-oriented analysis.
@@ -53,10 +53,10 @@ UML: Unified Modeling Language. It took the bases and techniques of OMT unifying
 At the top are the attributes or properties, and below are the operations of the class. You will notice that the first character they start with is a symbol. This will denote the visibility of the attribute or method, this is a term that has to do with Encapsulation and we will see it later in detail.
 
 These are the levels of visibility that you can have:
-- private
-+ public
-#protected
-~ default
+- **- private**
+- **+ public**
+- **# protected**
+- **~ default**
 
 #### Association
 <br><img src="https://github.com/brendamrdz/week1-course3-oop/blob/main/images/asociaci%C3%B3n.jpg?raw=true" alt="alt text" width="10%" height="auto"><br><br>
@@ -99,7 +99,65 @@ Don't repeat yourself is a philosophy that promotes the reduction of duplication
 Every piece of information should never be duplicated because it increases the difficulty in changes and evolution.
 Inheritance allows us to create new classes from other classes, it is based on real life models and concepts. We also have a hierarchy of parent and child.
 
+## Encapsulation
+Encapsulation is to make a data inviolable, unalterable when an access modifier is assigned to it (it is not only to hide the data but also to protect it). An access modifier defines the scope and visibility of a class member.
+Encapsulation is also called information hiding.
+Some benefits of encapsulation are:
+- Control the way data is accessed or modified.
+- The code is more flexible and easier to change based on new requirements.
+- Being able to modify one part of the code without affecting other parts of the code
+- Helps maintain data integrity
+
 ## Objects, constructor method and its syntax in code
 Objects help us to create instance of a class, the object is the result of what we model, the declared parameters and we will use the objects to make our classes come to life.
-
 The constructor methods give an initial state to the object and we can add some data to the object through these methods. The attributes or elements that we pass through the constructor will be the minimum data that the object needs so that it can live.
+
+## Definition of a class in different languages
+**Java**
+```bash
+class Person{
+String name="";
+void walk(){}
+}
+```
+**Python**
+```bash
+class Person:
+name="";
+def walk();
+```
+**JavaScript**
+```bash
+function Person(){
+Person.prototype.walk=function(){}
+}
+```
+**PHP**
+```bash
+class Person{
+$name="";
+function walk(){}
+}
+```
+
+## Declaring objects in different languages
+**Java**
+```bash
+Person person = new Person();
+```
+**Python**
+```bash
+person = Person()
+```
+**JavaScript**
+```bash
+var person = new Person();
+```
+**PHP
+```bash
+$person = new Person();
+```
+
+
+
+
