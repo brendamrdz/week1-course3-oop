@@ -59,24 +59,47 @@ These are the levels of visibility that you can have:
 ~ default
 
 #### Association
-<br><br><img src="https://github.com/brendamrdz/week1-course3-oop/blob/main/images/asociaci%C3%B3n.jpg?raw=true" alt="alt text" width="10%" height="auto"><br><br>
+<br><img src="https://github.com/brendamrdz/week1-course3-oop/blob/main/images/asociaci%C3%B3n.jpg?raw=true" alt="alt text" width="10%" height="auto"><br><br>
 Each time this type of arrow is referenced, it means that this element contains the other element in its definition. The arrow will point to the dependency.
 #### Inheritance
-<br><br><img src="https://github.com/brendamrdz/week1-course3-oop/blob/main/images/herencia.jpg?raw=true" alt="alt text" width="10%" height="auto"><br><br>
+<br><img src="https://github.com/brendamrdz/week1-course3-oop/blob/main/images/herencia.jpg?raw=true" alt="alt text" width="10%" height="auto"><br><br>
 This arrow expresses the inheritance.
 The direction of the arrow will go from the child to the parent.
 #### Aggregation
-<br><br><img src="https://github.com/brendamrdz/week1-course3-oop/blob/main/images/agregacion-simbolo.jpg?raw=true" alt="alt text" width="10%" height="auto"><br><br>
+<br><img src="https://github.com/brendamrdz/week1-course3-oop/blob/main/images/agregacion-simbolo.jpg?raw=true" alt="alt text" width="10%" height="auto"><br><br>
 This is similar to the association in that one element will depend on the other, but in this case it will be: One element will depend on many others. Here we take as reference the multiplicity of the element. What you would commonly know in Databases as One to Many Relationships.
 #### Composition
-<br><br><img src="https://github.com/brendamrdz/week1-course3-oop/blob/main/images/simbolo-composicion.jpg?raw=true" alt="alt text" width="10%" height="auto"><br><br>
+<br><img src="https://github.com/brendamrdz/week1-course3-oop/blob/main/images/simbolo-composicion.jpg?raw=true" alt="alt text" width="10%" height="auto"><br><br>
 This is similar to the previous one only that their relationship is totally dependent on each other in such a way that conceptually one of these classes could not live if the other did not exist.
 
 ## Objects
 Objects are those that have properties and behaviors, they will also be nouns.
+- They can be Physical or Conceptual
 
-They can be Physical or Conceptual
 Properties can also be called attributes and these will also be nouns. Some attributes or properties are name, size, shape, state, etc. They are all the characteristics of the object.
 
 Behaviors will be all the operations that the object can do, they are usually verbs or nouns and verb. Some examples can be that the user can login and logout.
 
+## Abstraction and Classes
+**Abstraction**
+When we collect the data of an object to generate a cast
+**Classes**
+It is the model on which our object will be built, this will allow us to generate more objects.
+## Modularity
+Modularity is closely related to classes and is a principle of Object Oriented Programming and goes hand in hand with Modular Design which means dividing a system into small parts and these will be our modules that can work independently.
+The modularity of our code will allow us to
+- Reuse
+- Avoid collapses
+- Make our code more maintainable
+- Readability
+- Quick resolution of problems
+- A good practice is to separate classes into different files.
+## What is inheritance?
+Don't repeat yourself is a philosophy that promotes the reduction of duplication in programming, this will instill in us not to have duplicate lines of code.
+Every piece of information should never be duplicated because it increases the difficulty in changes and evolution.
+Inheritance allows us to create new classes from other classes, it is based on real life models and concepts. We also have a hierarchy of parent and child.
+
+## Objects, constructor method and its syntax in code
+Objects help us to create instance of a class, the object is the result of what we model, the declared parameters and we will use the objects to make our classes come to life.
+
+The constructor methods give an initial state to the object and we can add some data to the object through these methods. The attributes or elements that we pass through the constructor will be the minimum data that the object needs so that it can live.
